@@ -54,3 +54,14 @@ img {
 h1 {
     text-align: center;
 }
+
+.zoom {
+    padding: 10px;
+    background-color: #fff;
+    transition: transform .2s; /* Animation */
+    margin: auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
