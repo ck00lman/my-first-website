@@ -3,7 +3,9 @@ body {
     padding: 0;
     font-family: 'oswald', sans-serif;
 }
-
+ 
+ /*Navigation Styling*/
+ 
 nav ul {
     list-style: none;
     background-color: #4a4a4f;
@@ -31,6 +33,8 @@ nav a:hover {
     background-color: #ffffff;
     color: #4a4a4f;
 }
+
+/*Navigation Styling End*/
 
 .card {
     float: left;
@@ -65,4 +69,13 @@ h1 {
 
 .zoom:hover {
     transform: scale(1.13); /* (113% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+a{
+    text-decoration: none;
+}
+
+a h2 {
+    background-color: #fff;
+    background-size: 5px;
 }
