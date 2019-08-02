@@ -67,7 +67,7 @@ h1 {
 }
 
 .zoom {
-    padding: 10px;
+    padding: 8px;
     background-color: #fff;
     transition: transform .2s; /* Animation */
     margin: auto;
